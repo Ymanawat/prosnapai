@@ -14,8 +14,8 @@ const GenerateImages = (props) => {
       <div className="generate-images-generate-images">
         <div className="generate-images-logo">
           <img
-            src="/playground_assets/logoprosnapai1200w1126-687f-200h.png"
             alt="logoprosnapai1200w1126"
+            src="/playground_assets/logoprosnapai1200w1126-687f-200h.png"
             className="generate-images-logoprosnapai1200w1"
           />
           <span className="generate-images-text">
@@ -52,22 +52,50 @@ const GenerateImages = (props) => {
               placeholder="Link"
               className="generate-images-linkto-modelinput"
             />
-            <label className="generate-images-text10">
-              <span>Prompt</span>
+            <div className="generate-images-hint">
+              <span className="generate-images-text10">
+                Below are some basic requirements to generate your image, Fill
+                Whatever you want
+              </span>
+            </div>
+            <label className="generate-images-text11">
+              <span>Background</span>
+              <br></br>
             </label>
             <input
               type="text"
-              placeholder="Write here what you want"
+              placeholder="for e.g. Nature Cityscape Rural Mountains Beach Skyline Nighttime"
               className="generate-images-prompinput"
             />
-            <span className="generate-images-text12">
-              <span>
-                Note : All pictures should be taken from different angles, in
-                different cloths and background
-              </span>
-            </span>
+            <label className="generate-images-text14">
+              <span>Location</span>
+              <br></br>
+            </label>
+            <input
+              type="text"
+              placeholder="for e.g. Studio Kitchen Office School Hospital"
+              className="generate-images-prompinput1"
+            />
+            <label className="generate-images-text17">Clothing</label>
+            <input
+              type="text"
+              placeholder="for e.g. Casual Formal Sportswear Business Traditional"
+              className="generate-images-prompinput2"
+            />
+            <label className="generate-images-text18">Emotions</label>
+            <input
+              type="text"
+              placeholder="for e.g. Happy Sad Angry Surprised Confused"
+              className="generate-images-prompinput3"
+            />
+            <label className="generate-images-text19">Anything else</label>
+            <input
+              type="text"
+              placeholder="Write here what you want"
+              className="generate-images-prompinput4"
+            />
             <button className="generate-images-train-model-button">
-              <span className="generate-images-text14">Generate Images</span>
+              <span className="generate-images-text20">Generate Images</span>
             </button>
           </div>
         </div>

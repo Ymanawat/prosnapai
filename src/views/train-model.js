@@ -14,8 +14,8 @@ const TrainModel = (props) => {
       <div className="train-model-train-model">
         <div className="train-model-logo">
           <img
-            src="/playground_assets/logoprosnapai1200w113-nc-200h.png"
             alt="logoprosnapai1200w113"
+            src="/playground_assets/logoprosnapai1200w113-nc-200h.png"
             className="train-model-logoprosnapai1200w1"
           />
           <span className="train-model-text">
@@ -51,8 +51,8 @@ const TrainModel = (props) => {
             </span>
             <div className="train-model-uploadimagesinput">
               <img
-                src="/playground_assets/vector121-01d.svg"
                 alt="Vector121"
+                src="/playground_assets/vector121-01d.svg"
                 className="train-model-vector"
               />
               <span className="train-model-text10">
